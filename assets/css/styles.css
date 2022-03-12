@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+}
+
+/* INDEX PAGE PLUS NAVBAR */
+.parent {
+  position: relative;
+}
+
+/* Navbar */
+.menu-div {
+  background-color: white;
+  width: 1520px;
+  height: 70px;
+  position: absolute;
+  left: 1px;
+  opacity: 80%;
+}
+
+/* Colocar imagen del doctor a la derecha*/
+.image-div {
+  float: right;
+}
+
+.index-doctor {
+  width: 780px;
+}
+
+.menu {
+  align-items: center;
+  padding-top: 15px;
+}
+
+.menu-item {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.menu-logo {
+  font-family: "Montserrat", sans-serif;
+  color: #2a4ac8;
+  font-weight: 800;
+  font-size: 20px;
+  padding-left: 100px;
+  padding-right: 250px;
+}
+
+.menu-section {
+  font-family: "Mulish", sans-serif;
+  color: #888888;
+  font-weight: 700;
+  padding: 0 50px;
+}
+
+.btn-menu {
+  background-color: #2a4ac8;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  height: 35px;
+  width: 120px;
+}
+
+/* Texto principal del index */
+.index-text {
+  position: absolute;
+  top: 150px;
+  left: 140px;
+  width: 500px;
+}
+
+.index-main-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 60px;
+  color: #1f3e72;
+}
+
+.index-main-subtitle {
+  font-family: "Mulish", sans-serif;
+  color: #888888;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 30px;
+  line-height: 30px;
+}
+
+/* Bullet points con iconos amarillos */
+/* Class para su div */
+.yellow-icons {
+  font-family: "Mulish", sans-serif;
+  color: #1f3e72;
+  font-weight: 800;
+  margin-top: 45px;
+}
+
+.star {
+  margin-left: 5px;
+}
+
+/* Iconos amarillos */
+.yellow-icon {
+  position: absolute;
+  top: 310px;
+}
+
+/* Texto que acompaña a los iconos amarillos */
+.yellow-icon-text {
+  padding-left: 35px;
+  padding-right: 25px;
+}
+
+/* Sección del subtítulo para agendar cita */
+.watch-icon {
+  position: absolute;
+  top: 450px;
+  left: 0px;
+}
+
+.watch-icon-text {
+  font-family: "Montserrat", sans-serif;
+  color: #1f3e72;
+  font-size: 18px;
+  font-weight: 700;
+  display: block;
+  margin-top: 118px;
+  margin-left: 35px;
+}
+
+/* Formulario para agendar cita de vacunación */
+/* Class del div del submenu */
+.form-submenu {
+  position: absolute;
+  z-index: 3;
+  width: 1000px;
+  height: 100px;
+  background-color: white;
+  opacity: 90%;
+  top: 650px;
+  left: 140px;
+  border-radius: 5px;
+  filter: drop-shadow(-8px 15px 10px rgba(42, 74, 200, 0.3));
+  display: inline;
+}
+
+/* Botón para enviar formulario */
+.form-submenu-btn {
+  background-color: #2a4ac8;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Mulish", sans-serif;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 3px;
+}
+
+.form-vaccine {
+  padding: 20px;
+}
+
+.location {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+}
+
+.date {
+  position: absolute;
+  top: 15px;
+  left: 300px;
+}
+
+.vaccine {
+  position: absolute;
+  top: 15px;
+  left: 600px;
+}
+
+/* Class del div del botón para enviar formulario */
+.btn-submit-vaccineform {
+  position: absolute;
+  top: 35px;
+  left: 850px;
+}
+
+/* Labels del formulario */
+.form-submenu-label {
+  font-family: "Mulish", sans-serif;
+  color: #888888;
+}
+
+/* Menú desplegable */
+select {
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #1f3e72;
+  padding-left: 28px;
+}
+
+.date-input {
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #1f3e72;
+  padding-left: 32px;
+}
+
+/* SECOND PAGE */
+
+.lab-logos {
+  display: inline-block;
+  filter: grayscale(100%);
+  opacity: 10%;
+  width: 1800;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.lab-logo {
+  margin-right: 120px;
+}
+
+/* Benefits section */
+
+.benefits {
+  width: 450px;
+  margin: 0px 150px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.benefits-section {
+  margin: 0px 150px;
+  margin-bottom: 50px;
+  width: 1200px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.benefits-main-heading {
+  color: #1f3e72;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.benefits-main-text {
+  color: #888888;
+  font-family: "Mulish", sans-serif;
+  margin-top: 30px;
+  line-height: 30px;
+}
+
+.benefit-card-heading {
+  color: #1f3e72;
+  font-weight: 700;
+  font-size: 15px;
+  font-family: "Mulish", sans-serif;
+  width: 130px;
+  padding-top: 15px;
+}
+
+.benefit-card-text {
+  color: #888888;
+  font-family: "Mulish", sans-serif;
+  line-height: 20px;
+  font-size: 12px;
+  width: 180px;
+  padding-top: 15px;
+}
+
+.benefit-card {
+  background-color: white;
+  border: 2px solid rgba(42, 74, 200, 0.1);
+  border-radius: 5px;
+  text-align: left;
+  padding: 30px;
+  width: 180px;
+  height: 230px;
+}
+
+.benefit-card:hover {
+  filter: drop-shadow(-8px 15px 10px rgba(42, 74, 200, 0.1));
+}
+
+/* THIRD PAGE */
+.container {
+  display: flex;
+}
+
+.preparations {
+  flex: 50%;
+}
+
+/* FOURTH PAGE */
+
+/*
+font-family: 'Mulish', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
