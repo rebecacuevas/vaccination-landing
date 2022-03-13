@@ -363,7 +363,7 @@ select {
   right: 20px;
   width: 30px;
   height: 30px;
-  background-image: url(assets/img/icon-down.png);
+  background-image: url(../../assets/img/icon-up.png);
   background-size: contain;
   transition: transform 0.4s;
 }
